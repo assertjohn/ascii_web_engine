@@ -380,7 +380,7 @@ function draw(currentTimestamp) {
         fillTriangle(projectedPoints[1], projectedPoints[2], projectedPoints[3],'.', 'blue');    
     }  
 
-    if (steps == 10) {
+    if (steps == 100) {
         scene[0].scale(20, 20, 20);
     }
     
