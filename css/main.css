@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+    user-select: none;
+}
+
+::selection {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#canvas {
+    /* font-family: 'Press Start 2P', monospace; */ 
+    font-family: 'VT323', monospace;
+    font-size: 8px;
+    font-weight: 100;
+    white-space: pre;
+}
+
+body, #canvas {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* this hides the scrollbars */
+    width: 100%;
+}
+
+.blue {
+    color: blue;
+}
+.white {
+    color: white;
+}
+
+.green {
+    color: green;
+}
